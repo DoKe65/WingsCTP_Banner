@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 8pt;
+  text-decoration: none;
+  color: black;
+}
+.content {
+  width: 768px;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  /* border: grey 1px solid; */
+}
+section {
+  display: flex;
+  flex-direction: column;
+}
+.main {
+  width: 710px;
+}
+.promo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4px;
+}
+.headline h1,
+.price {
+  font-family: "Roboto Slab", Helvetica, serif;
+  font-weight: 700;
+  font-size: 9.1pt;
+}
+.headline {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5px 0 2px;
+}
+.headline h1 {
+  margin: 0 15px 0 0;
+}
+.bundle {
+  display: flex;
+  flex-direction: row;
+  border-left: 1px grey solid;
+}
+.lm {
+  width: 100px;
+}
+.mb {
+  width: 160px;
+}
+.text {
+  text-align: center;
+}
+p {
+  margin: 1px;
+}
+.promoprice {
+  font-size: 14pt;
+}
+.list {
+  margin: 0;
+  padding-left: 17px;
+  align-self: flex-end;
+}
+.list li {
+  padding-top: 1px;
+  padding-bottom: 2px;
+}
+.book {
+  max-height: 90px;
+  width: auto;
+}
+.microbit {
+  width: auto;
+  max-height: 50px;
+  margin-top: 20px;
+}
+.python {
+  max-height: 16.5px;
+  width: auto;
+  margin-right: 15px;
+}
+.wings {
+  max-width: 86px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.logo {
+  width: 86px;
+  height: auto;
+}
+.wings p {
+  padding: 0;
+  margin: 0;
+}
